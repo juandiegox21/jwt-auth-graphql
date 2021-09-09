@@ -1,6 +1,7 @@
-import 'dotenv/config';
 
-const config = {
+require('dotenv').config()
+
+module.exports = {
    "type": "postgres",
    "host": process.env.TYPEORM_HOST,
    "port": parseInt(process.env.TYPEORM_PORT, 10) || 5432,
@@ -24,5 +25,3 @@ const config = {
       "subscribersDir": "src/subscriber"
    }
 }
-
-export default config;
