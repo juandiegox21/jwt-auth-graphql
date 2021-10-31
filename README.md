@@ -12,6 +12,23 @@ JWT Authentication using GraphQL with Apollo on an Express server, and PostgreSQ
 _example of a middleware on the bye query, and authenticating using JWT_
 ![alt text][graphqlquery]
 
+# Installation 🚀
+
+Install [PostgreSQL][postgresqlurl] on your system, create a database, and update your .env file
+
+```ruby
+# go into the server folder
+$ cd server
+# install dependencies
+$ npm install
+
+# start express server
+npm start
+```
+
+go to http://localhost:4000/graphql
+
 <!-- definitions -->
 
 [graphqlquery]: https://i.imgur.com/c0vJHuC.gif
+[postgresqlurl]: https://www.postgresql.org/download/
